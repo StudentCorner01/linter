@@ -1,8 +1,8 @@
 void main() {
   /// Question: Write a Dart program to count the number of vowels in a string using a loop.
-  String input = 'hello world';
+  const input = 'hello world';
   int count = 0;
-  String vowels = 'aeiou';
+  const vowels = 'aeiou';
 
   for (int i = 0; i < input.length; i++) {
     if (vowels.contains(input[i])) {
